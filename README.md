@@ -33,5 +33,6 @@ Navegar hasta ```http://127.0.0.1:8000/admin/```
 
 Irse a "groups", crear un grupo y asignarle todos los permisos. Por último , irse a "users" y asignar el grupo creado al superusuario
 
-
+## DOC APIS
+Para ver la documentacion de las apis vaya a ```http://127.0.0.1:8000/redoc/```
 
