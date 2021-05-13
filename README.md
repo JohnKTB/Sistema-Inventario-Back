@@ -8,7 +8,7 @@ cd /.../ruta_entorno/mi_entorno
 ```
 ##Clonar el repositorio:
 ```
-git clone "....."
+git clone "https://github.com/JohnKTB/Sistema-Inventario-Back.git"
 ```
 ##Activar entorno virtual:
 ```
