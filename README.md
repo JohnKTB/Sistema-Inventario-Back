@@ -1,33 +1,33 @@
-#CONFIGURACIÓN
+# CONFIGURACIÓN
 
-##Cree un entorno virtual:
+## Cree un entorno virtual:
 ```
 python3 -m venv "nombre_entorno"
 
 cd /.../ruta_entorno/mi_entorno
 ```
-##Clonar el repositorio:
+## Clonar el repositorio:
 ```
 git clone "https://github.com/JohnKTB/Sistema-Inventario-Back.git"
 ```
-##Activar entorno virtual:
+## Activar entorno virtual:
 ```
 source bin/activate
 ```
-##Instalar dependencias:
+## Instalar dependencias:
 ```
 pip install -r requirements.txt
 
 cd mi_proyecto/
 ```
-##TUTORIAL
+## TUTORIAL
 
-####Settings
+#### Settings
 Abrir el archivo local.py que está dentro de la carpeta "settings" y reemplazar los campos ```NAME, USER y PASSWORD``` por los propios.
 
 Crear un superusuario ```python manage.py createsuperuser``` y luego ejecutar ```python manage.py runserver```
 
-####Asignar permisos
+#### Asignar permisos
 
 Navegar hasta ```http://127.0.0.1:8000/admin/```
 
