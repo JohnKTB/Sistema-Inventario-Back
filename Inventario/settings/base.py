@@ -1,5 +1,6 @@
 import json
 from datetime import timedelta
+from django.core.exceptions import ImproperlyConfigured
 from unipath import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
